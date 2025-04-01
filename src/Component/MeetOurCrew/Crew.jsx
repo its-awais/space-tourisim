@@ -1,9 +1,9 @@
 import React,{useState} from 'react'
 import "./Crew.css";
-import crewOneImage from "../../assets/assets/crew/image-anousheh-ansari.webP";
-import crewTwoImage from "../../assets/assets/crew/image-douglas-hurley.webP"
-import crewThreeImage from "../../assets/assets/crew/image-mark-shuttleworth.webP";
-import crewFourImage from "../../assets/assets/crew/image-victor-glover.webP";
+import crewOneImage from "../../assets/assets/crew/image-anousheh-ansari.webp";
+import crewTwoImage from "../../assets/assets/crew/image-douglas-hurley.webp"
+import crewThreeImage from "../../assets/assets/crew/image-mark-shuttleworth.webp";
+import crewFourImage from "../../assets/assets/crew/image-victor-glover.webp";
 const Crew = () => {
 
     
