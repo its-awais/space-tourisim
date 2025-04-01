@@ -1,0 +1,131 @@
+:root{
+    --light-white : rgba(250,250,250,0.6);
+}
+.background-home{
+    position: absolute;
+    top : 0;
+    left : 0;
+    background-image: url('../../assets/assets/home/background-home-desktop.jpg');
+    width : 100%;
+    height: 100%;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+#Home-page{
+    z-index: 1;
+    color : white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 8rem;
+    
+}
+#Travel-to-space{
+    margin-top: 7rem;
+    z-index: 1;
+    
+}
+#Travel-to-space h1{
+    color : var(--light-white);
+    font-size : 2rem;
+}
+#Travel-to-space h1 span{
+    font-size: 5rem;
+    letter-spacing: 0.4rem;
+    color : white;
+    font-weight: 400;
+}
+article{
+    color : var(--light-white)
+}
+#Explore{
+    margin-right : 5rem ;
+    width : 12rem;
+    height : 12rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    box-shadow: 2rem 2rem 4rem rgba(0,0,0,1);
+    margin-top : 5rem;
+}
+.block{
+    display: block;
+}
+@media(max-width : 1150px){
+    .background-home{
+        height : 130vh
+    }
+    #Explore{
+        margin-right: 0rem !important;
+        margin-top: 2rem;
+        
+    }
+    #Home-page{
+        flex-direction: column;
+        height : auto;
+        padding : 3rem;
+    }
+    #Travel-to-space h1 span{
+        margin-right: 1rem;
+    }
+    article{
+        margin-top : 3em;
+    }
+    
+    
+}
+@media(max-width : 1000px){
+    #Home-page{
+        background-position: 50%;
+    }
+    #Travel-to-space{
+        margin-left : 5rem;
+    }
+}
+/* for tablet mode */
+@media(max-width : 772px){
+    .background-home{
+        background-image: url(../../assets/assets/home/background-home-tablet.jpg) !important;
+        background-size: cover;
+    }
+    #Travel-to-space h1 span{
+        font-size : 8rem;
+        margin-left : 0.7rem;
+        font-weight: 400;
+        margin-bottom: 3rem;
+    }
+    #Travel-to-space h1 span{
+        margin-right: 2rem;
+    }
+    #Explore{
+        margin-right : 7rem;
+    }
+    
+}
+@media(max-width : 700px){
+    #Home-page{
+        padding : 4rem  2rem 0 2rem ;
+    }
+    #Travel-to-space h1{
+        font-size: 1.5rem;
+        padding-left : 2rem;
+        
+    }
+    #Travel-to-space h1 span{
+        font-size: 6rem;
+    }
+      
+}
+@media(max-width : 500px){
+    .block{
+        display: inline;
+    }
+    #Travel-to-space{
+        padding-left : 3rem;
+    }
+    #Travel-to-space article{
+        max-width : 23rem;
+        padding-left : 3rem;
+    }
+}
+

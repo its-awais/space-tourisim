@@ -1,0 +1,120 @@
+.background{
+    position: absolute;
+    top : 0;
+    left : 0;
+    background-image: url(../../assets/assets/destination/background-destination-desktop.jpg);
+    width : 100%;
+    min-height : 108vh;
+    background-repeat:  no-repeat;
+    color : white;
+    z-index: -1;
+}
+
+#destination{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding :8rem 0rem 1rem 9rem;
+    width : 100%;
+    color : white;
+    min-height: 100vh;
+}
+
+#destination .line{
+    width : 75%;
+    background-color: rgba(250,250,250,0.3);
+    height : 0.1rem;
+    margin-top: 1.4rem;
+}
+h2{
+    padding-left: 0 !important;
+    padding-bottom: 1rem;
+}
+h3{
+    font-size: 7rem !important;
+}
+.same-as-earth img{
+    width : 18rem;
+    padding-bottom: 4rem;
+}
+.solar-systems{
+    list-style-type: none;
+    display: flex;
+    gap : 2rem;
+    padding-right: 2rem;
+    cursor: pointer !important;
+}
+.two-items{
+    display: flex;
+}
+.same-as-earth{
+    flex-basis: 30%;
+    margin-left : 2rem;
+}
+.pick-one{
+    flex-basis: 70%;
+    margin-left : 4rem;
+}
+.pick-one article{
+    max-width : 78%;
+}
+.distance{
+    gap : 20%;
+}
+@media(max-width : 905px){
+    .background{
+        background-image: url(../../assets/assets/destination/background-destination-tablet.jpg);
+        height:139%;
+        background-size: cover;
+    }
+    #destination{
+        padding : 8rem 0rem 1rem 4rem;
+    }
+    .pick-one{
+        order :  0;
+        flex-basis : 100%;
+        margin-top : 2rem;
+}
+.solar-systems{
+    gap : 5rem;
+
+}
+ .same-as-earth{
+    order : 1;
+    padding-top : 4rem;
+    padding-left: 7rem ;
+ }
+ .two-items{
+    flex-direction: column !important;
+ }
+}
+@media(max-width : 700px){
+    .solar-systems{
+        gap : 2rem;
+    }
+    .pick-one{
+        margin-left : 0rem;
+    }
+    .same-as-earth{
+       padding-left : 0rem;
+    }
+}
+@media(max-width : 460px){
+    #destination{
+        padding : 8rem 0rem 1rem 1.3rem;
+    }
+    
+    .pick-one article{
+        max-width : 100%;
+    }
+    .same-as-earth{
+        padding-left : 0rem;
+    }
+    .solar-systems{
+     padding-left : 0;
+    }
+    .same-as-earth img{
+       padding-right : 1.3rem;
+    }
+    
+}

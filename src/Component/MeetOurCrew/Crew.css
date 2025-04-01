@@ -1,0 +1,103 @@
+/* .background-crew{
+    background-image : url(../../assets/assets/crew/background-crew-desktop.jpg);
+    z-index: -1;
+    width : 100%;
+    height: 104%;
+    background-size: cover;
+    position: absolute;
+    top : 0;
+    left : 0;
+} */
+.background-crew {
+    background-image: url(../../assets/assets/crew/background-crew-desktop.jpg);
+    z-index: -1;
+    width: 100%;
+    height: 104%;; /* Takes full viewport height */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#crew{
+    padding : 6rem 0rem 0rem 7rem;
+    color : white;
+}
+#crew  h1 {
+    font-size : 1.6rem;
+    margin-top : 1.5rem;
+    padding-bottom: 2rem;
+}
+#crew h1 span,.role{
+   color : rgba(250,250,250,0.4)
+}
+#crew .information-pic{
+    margin-top : 3rem;
+    gap : 2rem;
+    display: flex;
+}
+#crew .role{
+    display: block;
+}
+ h2 .name {
+    margin-left : 2rem;
+}
+.crew-infromation{
+    flex-basis : 50%;
+}
+.crew-infromation article{
+    max-width: 25rem;
+}
+.crew-pic{
+    flex-basis: 40%;
+
+}
+.crew-images{
+    width : 23rem;
+    height : 23rem;
+}
+.dot{
+    width : 1rem;
+    margin-left: 2rem;
+    border-radius : 50%;
+    height : 1rem;
+    margin-top : 2rem;
+    background-color: black;
+}
+.Active{
+    color : blue;
+    background-color: white;
+}
+@media(max-width : 850px){
+    #crew .information-pic{
+        flex-direction: column;
+        align-items: center;
+    }
+    #crew{
+        padding : 6rem 0rem 0rem 4rem;
+    }
+    h1{
+        text-align: center;
+        margin-right: 9rem;
+    }
+    h2 .name {
+        margin-left : 0rem;
+    }
+    .dot{
+        margin-left : 3rem;
+    }
+    .background-crew{
+        background-image: url(../../assets/assets/crew/background-crew-tablet.jpg);
+        height: 143%;
+        background-size: cover;
+    }
+}
+@media(max-width : 550px){
+    #crew{
+        padding : 6rem 0rem 0rem 1rem;
+    }
+    #crew h1 {
+        margin-right : 0rem;
+        text-align: start;
+    }
+}
