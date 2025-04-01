@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom';
 import "./Destination.css";
-import marsImage from "../../assets/assets/destination/image-mars.webP";
-import moonImage from "../../assets/assets/destination/image-moon.webP";
-import titanImage from "../../assets/assets/destination/image-titan.webP";
-import europaImage from "../../assets/assets/destination/image-europa.webP";
+import marsImage from "../../assets/assets/destination/image-mars.webp";
+import moonImage from "../../assets/assets/destination/image-moon.webp";
+import titanImage from "../../assets/assets/destination/image-titan.webp";
+import europaImage from "../../assets/assets/destination/image-europa.webp";
 
 const Destination = () => {
     const destinations = {
